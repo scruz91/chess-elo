@@ -22,9 +22,9 @@ class ToggleBox extends React.Component {
 		const { opened } = this.state;
 
 		if (opened){
-			title ='Adios Tabla';
+			title ='Ranking';
 		}else{
-			title ='Mostrar Tabla';
+			title ='Ranking';
 		}
 
 		return (
