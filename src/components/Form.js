@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export default ({ handleChange, handleSubmit, post }) => {
   return (
@@ -35,16 +35,16 @@ export default ({ handleChange, handleSubmit, post }) => {
           />
         </div>
         <div className="form-group">
-        <div className="form-group">
-          <input
-            className="col-12 form-control"
-            name="j2Elo"
-            onChange={handleChange}
-            type="text"
-            value={post.j2Elo}
-            placeholder="post salary"
-          />
-        </div>
+          <div className="form-group">
+            <input
+              className="col-12 form-control"
+              name="j2Elo"
+              onChange={handleChange}
+              type="text"
+              value={post.j2Elo}
+              placeholder="post salary"
+            />
+          </div>
         </div>
         <button className="btn btn-primary" onClick={handleSubmit}>
           Submit
